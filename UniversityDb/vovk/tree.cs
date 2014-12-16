@@ -46,7 +46,7 @@ public class SimpleTreeView : TreeView
                     TreeNode zNode = pNode.Nodes.Add(Row["id"].ToString(), Row["name"].ToString());
                     CreateNodesOfParent(Int32.Parse(Row["id"].ToString()), zNode);
                 }
-                this.ForeColor = Color.Red;
+                this.ForeColor = Color.Green;
             }
         }
     }

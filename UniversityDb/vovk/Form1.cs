@@ -35,7 +35,7 @@ namespace vovk
             InitializeComponent();
             stvTreeView = new SimpleTreeView(new SimpleDataSet());
             this.Controls.Add(stvTreeView);
-            stvTreeView.LineColor = Color.OrangeRed;
+            stvTreeView.LineColor = Color.Green;
             stvTreeView.NodeMouseClick += new TreeNodeMouseClickEventHandler(stvTreeView_NodeMouseClick);
             ContextMenuShow(stvTreeView);
             
