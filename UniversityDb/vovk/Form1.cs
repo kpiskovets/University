@@ -17,7 +17,7 @@ namespace vovk
     public partial class Form1 : Form
     {
         SimpleTreeView stvTreeView;
-        public OleDbConnection connection = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\orodr_000\Dropbox\UniversityDb\Database1.accdb");
+        public OleDbConnection connection = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\orodr_000\Documents\GitHub\University\UniversityDb\Database1.accdb");
         OleDbCommand command;
         DataSet ds = new DataSet("University");
         DataTable Classes = new DataTable();
@@ -46,21 +46,7 @@ namespace vovk
         {
 
             stv.ContextMenuStrip = contextMenuStrip1;
-            /*foreach (TreeNode RootNode in stv.Nodes)
-            {
-                RootNode.ContextMenuStrip = contextMenuStrip1;
-                foreach (TreeNode ChildNode in RootNode.Nodes)
-                {
-                    ChildNode.ContextMenuStrip = contextMenuStrip1;
-                    foreach (TreeNode ChildNode1 in ChildNode.Nodes)
-                    {
-                        ChildNode1.ContextMenuStrip = contextMenuStrip1;
-
-                    }
-                }
-
-
-            }*/
+            
 
 
         }

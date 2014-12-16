@@ -30,13 +30,10 @@
         {
             this.label2 = new System.Windows.Forms.Label();
             this.textBox_chief = new System.Windows.Forms.TextBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dt)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ds)).BeginInit();
             this.SuspendLayout();
-            // 
-            // button_Apply
-            // 
-            this.button_Apply.Location = new System.Drawing.Point(35, 255);
             // 
             // label2
             // 
@@ -53,12 +50,23 @@
             this.textBox_chief.Name = "textBox_chief";
             this.textBox_chief.Size = new System.Drawing.Size(100, 20);
             this.textBox_chief.TabIndex = 24;
+            this.textBox_chief.Visible = false;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(141, 200);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.TabIndex = 26;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // InstitutionOrg
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 331);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textBox_chief);
             this.Name = "InstitutionOrg";
@@ -72,6 +80,7 @@
             this.Controls.SetChildIndex(this.textBox_Class, 0);
             this.Controls.SetChildIndex(this.textBox_chief, 0);
             this.Controls.SetChildIndex(this.label2, 0);
+            this.Controls.SetChildIndex(this.comboBox1, 0);
             ((System.ComponentModel.ISupportInitialize)(this.dt)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ds)).EndInit();
             this.ResumeLayout(false);
@@ -83,5 +92,6 @@
 
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox_chief;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }

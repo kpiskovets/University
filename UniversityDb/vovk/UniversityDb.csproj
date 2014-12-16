@@ -128,12 +128,6 @@
     <Compile Include="InstitutionOther.Designer.cs">
       <DependentUpon>InstitutionOther.cs</DependentUpon>
     </Compile>
-    <Compile Include="Інший_обєкт.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Інший_обєкт.Designer.cs">
-      <DependentUpon>Інший_обєкт.cs</DependentUpon>
-    </Compile>
     <Compile Include="Aspirant.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -343,12 +337,6 @@
     <Compile Include="Test.Designer.cs">
       <DependentUpon>Test.cs</DependentUpon>
     </Compile>
-    <Compile Include="Типовий_документ.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Типовий_документ.Designer.cs">
-      <DependentUpon>Типовий_документ.cs</DependentUpon>
-    </Compile>
     <Compile Include="Transport.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -387,9 +375,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="InstitutionOther.resx">
       <DependentUpon>InstitutionOther.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Інший_обєкт.resx">
-      <DependentUpon>Інший_обєкт.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Aspirant.resx">
       <DependentUpon>Aspirant.cs</DependentUpon>
@@ -502,9 +487,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Test.resx">
       <DependentUpon>Test.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Типовий_документ.resx">
-      <DependentUpon>Типовий_документ.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Transport.resx">
       <DependentUpon>Transport.cs</DependentUpon>
